@@ -28,14 +28,12 @@ header {
 .main-menu {
   background: #839b5c;
   grid-column-start: 1;
-  grid-column-end: 5;
+  grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
 }
 
-.main-menu ul {
-  display: flex;
-}
+
 
 .main-menu ul li a {
   color: #FFF;
@@ -50,10 +48,10 @@ header {
 main {
   background: #EEE;
   padding: 20px;
-  grid-column-start: 1;
+  grid-column-start: 2;
   grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 article {
@@ -66,8 +64,8 @@ aside {
   background: #DDD;
   grid-column-start: 4;
   grid-column-end: 5;
-  grid-row-start: 3;
-  grid-row-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
 .sub-menu {
